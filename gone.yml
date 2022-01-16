@@ -1,6 +1,6 @@
 ---
 - name: use apache_vhost role playbook
-  hosts: localhost
+  hosts: all
   become: true
 
   roles:
