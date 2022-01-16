@@ -1,0 +1,8 @@
+---
+- name: use apache_vhost role playbook
+  hosts: localhost
+  become: true
+
+  roles:
+         - bloc
+
