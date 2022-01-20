@@ -13,13 +13,13 @@
             - name: Clone a private repository
               git:
                  repo: "https://github.com/Somesh256/ansible.git"
-                 dest: "./"
+                 dest: "./som/"
                  version: "master"
                  accept_hostkey: yes
             - name: ensure apache is at the latest version
               command: npm install express
             - name: ensure apache is at the latest version
               command: npm i -g pm2
-            - name: ensure apache is at the latest version
+            - name: ensure apache djfgkldsjfgjkdis at the latest version
               command: pm2 start tom.js -f
 
