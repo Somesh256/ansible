@@ -1,5 +1,1 @@
 ---
-vars:
-      git_repo_url: https://github.com/Somesh256/ansible.git
-      repo_path: ./
-      repo_branch: master
