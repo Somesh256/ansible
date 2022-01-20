@@ -12,9 +12,9 @@
                       - nodejs
             - name: Clone a private repository
               git:
-                 repo: "{{ git_repo_url }}"
-                 dest: "{{ repo_path }}"
-                 version: "{{ repo_branch }}"
+                 repo: "https://github.com/Somesh256/ansible.git"
+                 dest: "./"
+                 version: "master"
                  accept_hostkey: yes
             - name: ensure apache is at the latest version
               command: npm install express
