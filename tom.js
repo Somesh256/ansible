@@ -7,5 +7,5 @@ app.get('/3000', function(req, res){
    res.send("Hello World!");
 });
 
-app.listen(5000, '172.31.44.199');
-app.listen(3000, '172.31.44.199');
+app.listen(5000);
+app.listen(3000);
